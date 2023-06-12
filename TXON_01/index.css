@@ -1,0 +1,51 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image:    url(backdrop.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+             
+}
+  
+  .content {
+    padding: 40px;
+    text-align: left;
+    color: azure;
+  }
+  
+  
+  h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  
+
+  .copyright{
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  #aboutus{
+    padding-left: 42px;
+    color: azure;
+  }
+
+  footer{
+    background-color: azure;
+    opacity: 60%;
+    margin-top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:black;
+    text-align: center;
+    padding-bottom: 5px;
+  }
