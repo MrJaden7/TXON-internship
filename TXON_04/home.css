@@ -1,0 +1,38 @@
+body {
+   font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1 {
+   font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: left;
+
+  }
+
+  h5{
+    font-size: 16px;
+  }
+  
+  h1, h2, h5, h6, button{
+    font-family: "poppins";
+  }
+
+  .nav-link{
+    margin-right: 10px;
+    color: black;
+    font-weight: 600;
+    font-family: "poppins";
+    font-size: 12px;
+    text-decoration: none;
+
+  }
+  
+.text{
+  text-align: center;
+}

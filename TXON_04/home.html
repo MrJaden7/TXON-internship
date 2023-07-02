@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+  
+    <link rel="stylesheet" href="home.css">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="home.js"></script>
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <nav >
+      <div class="navbar-nav" style="height: 50px; display: flex; justify-content: space-between;align-items: center;  margin-left: 10%; margin-right: 10%; ">
+        <img src="logo.png" width="auto" height="35px" alt="" srcset="">
+        <div >
+          <a class="nav-item nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#aboutme">About</a>
+          <a class="nav-item nav-link" href="#skills">Skills</a>
+          <a class="nav-item nav-link" href="#contactme">Contact me</a>
+        </div>
+
+      </div>
+      </nav>
+      <div style="display: flex; max-width: 100vw;  ">
+        <div style="padding-left: 10% ; width: 50vw;">
+ 
+    <h1 style="   padding-top: 18%;">Hi! I am Jaden Menezes</h1>
+          <h5 >Passionate AI & Data Sci Student | Aspiring Innovator</h5>
+          <div style="display: flex; width: fit-content;  margin-top: 20px; flex-direction: row; align-items: center; justify-content: center;">
+            <button style="background-color: #fe481c; border: none; color: white; padding: 8px; padding-left: 10px; padding-right: 10px; font-size: 14px;">Contact</button>
+            <i class="fa fa-github" style="font-size:24px; margin-left: 20px; font-size: 30px;" onclick="openGit()"></i>
+          </div>
+        </div>
+
+        <div>
+          <img style="object-fit: cover; width: 50vw; height: 90vh; border: none;" src="backgroundimg-PhotoRoom.png" class="img-thumbnail" alt="...">
+        </div>
+
+      </div>
+
+
+      <div id="aboutme" style="display: flex; justify-content: space-around; background-color: #fe5c1c; margin: 5%; border-radius: 25px; align-items: center; padding: 2%; font-family: poppins; ">
+        I'm Jaden Menezes, an ambitious computer science student deeply passionate about technology. My journey has helped me improve my coding skills, problem-solving abilities, and has grown my love for technology. Collaborating with peers on diverse projects has taught me the value of teamwork and effective communication. I enjoy exploring AI, hardware tinkering, and gaming. With a thirst for knowledge, I constantly seek to learn and adapt to emerging trends. My goal is to contribute meaningfully to the tech world, building innovative solutions that positively impact society.<br><br>
+        I am fascinated by data analysis.My goal is to contribute to impactful projects and collaborate with diverse professionals to make data-driven decisions. 
+      </div>
+
+      <div id=skills style="display: flex; justify-content: space-around; background-color: #fe5c1c; margin: 5%; border-radius: 25px; align-items: center; padding: 2%; ">
+        <h1>Skills</h1>
+        <div>
+        <h5>Web Development</h5>
+        <h5>Python</h5>
+        <h5>SQL</h1>
+        <h5>MS Excel</h1>
+        <h5>Data Analysis</h1>
+        </div>
+      </div>
+
+      <div id=contactme style="background-color: #fe5c1c ; border-radius: 25px; margin: 5%;padding-left: 10px; ">
+      <h1 style="text-align: center;">Contact me</h1>
+      <form action="submit_form.php" method="post">
+        <label for="name" style="font-family: poppins;">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+      <label for="email" style="font-family: poppins;">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit" style="background-color:black; color: white; border: none; padding: 12px 20px; cursor: pointer; border-radius: 5px;">Send Message</button>
+    </form>
+
+    <div class="text">
+      <h2>Alternatively, you can reach me through the following channels:</h2>
+      <p><strong>Email:</strong> your.email@example.com</p>
+      <p><strong>Phone:</strong> +1 (555) 123-4567</p><br><br>
+    </div>
+  </div>
+
+
+</body>
+</html>
